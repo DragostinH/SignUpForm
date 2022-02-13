@@ -1,0 +1,26 @@
+{
+  "name": "signupform",
+  "version": "1.0.0",
+  "description": "TOP|SignUpForm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"webpack --watch",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragostinH/SignUpForm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragostinH/SignUpForm/issues"
+  },
+  "homepage": "https://github.com/DragostinH/SignUpForm#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
