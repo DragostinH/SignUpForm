@@ -79,6 +79,12 @@ label {
     margin: 0 1rem 0 1rem;
 }
 
+input{
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 24px;
+}
+
 .btn-container,
 .form-title {
     padding: 2rem;
@@ -167,3 +173,4 @@ footer p {
         width: 12rem;
     }
 }
+
