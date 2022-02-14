@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _carousel_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./carousel.js */ \"./src/carousel.js\");\n\nconst formPage = (() => {\n    const leftSide = document.querySelector('.carousel');\n    console.log(leftSide);\n    (0,_carousel_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(leftSide);\n\n})()\n\n//# sourceURL=webpack://signupform/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _carousel_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./carousel.js */ \"./src/carousel.js\");\n/* harmony import */ var _img_github_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/github.png */ \"./src/img/github.png\");\n\n\n\nconst formPage = (() => {\n    // Saving the left side of the webpage in a variable\n    const leftSide = document.querySelector('.carousel');\n\n    // Saving img element for the Github icon in a variable\n    const iconPlace = document.querySelector('.githubIcon');\n\n    // assigning the source for the img element to be the source of the local import\n    iconPlace.src = _img_github_png__WEBPACK_IMPORTED_MODULE_1__\n    \n    // initiating the carousel function to the left side of the sign up webpage\n    ;(0,_carousel_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(leftSide);\n\n})()\n\n//# sourceURL=webpack://signupform/./src/index.js?");
 
 /***/ }),
 
@@ -97,6 +97,16 @@ eval("module.exports = __webpack_require__.p + \"f39afd3154a70ec1d229.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"9fd733d4e2937a5d4d38.jpg\";\n\n//# sourceURL=webpack://signupform/./src/img/cooking-sushi3.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/github.png":
+/*!****************************!*\
+  !*** ./src/img/github.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ce02960dedca82adba6e.png\";\n\n//# sourceURL=webpack://signupform/./src/img/github.png?");
 
 /***/ })
 
